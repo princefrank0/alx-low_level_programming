@@ -1,13 +1,18 @@
-#ifndef PI_H
-#define PI_H
-
 /*
- * File: 1-pi.h
- * Auth: Frank Emmanuel
- * Desc: Header file that defines a macro named PI
- *       as an abbreviation for the token 3.14159265359.
+ * File: 2-main.c
  */
 
-#define PI 3.14159265359
+#include <stdio.h>
 
-#endif
+/**
+ * main - Prints the name of the file of the program
+ *        was compiled from, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+
+	return (0);
+}
